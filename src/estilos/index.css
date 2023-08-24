@@ -1,0 +1,94 @@
+.contenedor-del-menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--colornav);
+    height: 90px;
+}
+.contenedor-del-menu p{
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Roboto';
+}
+.contendor-logo{
+    display: flex;
+    width: 60%;
+    
+    
+}
+.contendor-logo p{
+    margin-left: 5%;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+/* seccion del banner */
+.section-home{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-background);
+    height: 440px;
+    color: white;
+    font-family: 'Fira Sans';
+    background-image: url(../assets/img/fondo.jpg);
+
+}
+.section-home h1{
+ width: 70%;
+ font-size: 46px;
+ padding: 5%;
+ font-weight: bold;
+
+ 
+}
+.section-home h4{
+ font-size: 20px;
+ font-weight: 100;
+ margin-left: 5%; 
+ width: 65%;
+
+}
+.btn-comienza-ahora{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.section-cards{
+    background-color: var(--color-background);
+    height: 1300px;
+}
+.section-mantenimiento{
+    background-color: var(--color-background);
+    height: 800px;
+    padding: 5%;
+    font-family: 'Roboto';
+    display: flex;
+}
+.section-mantenimiento h1{
+    color: white;
+    font-size: 48px;
+    width: 70%;
+    margin-bottom: 5%;
+}
+.section-mantenimiento p{
+    color: white;
+    width: 60%;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+.mantenimiento-img{
+    width: 500px;
+    height: 480px;
+}
+.btn-leer-mas{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}

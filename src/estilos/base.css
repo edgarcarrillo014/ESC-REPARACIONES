@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+:root{
+    --colornav: #101010;
+    --color-cards: #2372D9;
+    --color-background: #242424;
+}

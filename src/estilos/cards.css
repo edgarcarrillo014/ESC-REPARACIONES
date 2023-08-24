@@ -1,0 +1,30 @@
+.section-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards{
+    width: 340px;
+    height: 450px;
+    margin: 5%;
+    border: none;
+    border-radius: 5px ;
+}
+.uno{
+    background-image: url('../assets/img/card1.png');
+} 
+.dos{
+    background-image: url('../assets/img/card2.png');
+} 
+.tres{
+    background-image: url('../assets/img/card22.png');
+} 
+.cuatro{
+    background-image: url('../assets/img/card5.png');
+} 
+.cinco{
+    background-image: url('../assets/img/image\ 4.png');
+}
+.seis{
+    background-image: url('../assets/img/image\ 5.png');
+}
