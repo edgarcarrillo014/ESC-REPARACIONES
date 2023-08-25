@@ -2,7 +2,10 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    background-color: var(--color-background);
+    height: 1300px;
 }
+
 .cards{
     width: 340px;
     height: 450px;
@@ -10,21 +13,27 @@
     border: none;
     border-radius: 5px ;
 }
-.uno{
-    background-image: url('../assets/img/card1.png');
-} 
-.dos{
-    background-image: url('../assets/img/card2.png');
-} 
-.tres{
-    background-image: url('../assets/img/card22.png');
-} 
-.cuatro{
-    background-image: url('../assets/img/card5.png');
-} 
-.cinco{
-    background-image: url('../assets/img/image\ 4.png');
+.cards img{
+    width: 340px;
+    height: 450px;
 }
-.seis{
-    background-image: url('../assets/img/image\ 5.png');
+.texto-oculto{
+    text-align: center;
+    font-size: 20px;
+}
+
+.texto-oculto{
+    animation:texto-oculto 1s linear both
+} 
+@keyframes texto-oculto{
+    0%{
+        letter-spacing:.6em;
+        opacity:0
+    }40%
+        {opacity:.6
+
+    }100%
+        {letter-spacing:normal;
+            opacity:1
+        }
 }

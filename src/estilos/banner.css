@@ -1,0 +1,90 @@
+/* seccion del banner */
+.section-home{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-background);
+    height: 450px;
+    color: white;
+    font-family: 'Fira Sans';
+    background-image: url(../assets/img/fondo.jpg);
+
+}
+.section-home h1{
+ width: 70%;
+ font-size: 46px;
+ padding: 5%;
+ font-weight: bold;
+ margin-top: 10px;
+position: relative;
+}
+.section-home h4{
+ font-size: 20px;
+ font-weight: 100;
+ margin-left: 5%; 
+ width: 75%;
+
+}
+.btn-comienza-ahora{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+/*Animaciones*/
+/*Animaciones*/
+
+.section-home .texto-animado{
+    animation:section-home .9s linear both 
+} 
+@keyframes section-home{
+    0%{
+        transform:scale3d(1,1,1)
+    }
+    30%{
+        transform:scale3d(.75,1.25,1)
+    }
+    40%{
+        transform:scale3d(1.25,.75,1)
+    }
+    50%{
+        transform:scale3d(.85,1.15,1)
+    }
+    65%{
+        transform:scale3d(1.05,.95,1)
+    }
+    75%{
+        transform:scale3d(.95,1.05,1)
+    }
+    100%{
+        ransform:scale3d(1,1,1)
+    }  
+ }
+.btn-comienza-ahora{
+    animation:btn-comienza-ahora .9s linear both
+} 
+@keyframes btn-comienza-ahora{
+    0%{
+        transform:scale3d(1,1,1)
+    }
+    30%{
+        transform:scale3d(.75,1.25,1)
+    }
+    40%{
+        transform:scale3d(1.25,.75,1)
+    }
+    50%{
+        transform:scale3d(.85,1.15,1)
+    }
+    65%{
+        transform:scale3d(1.05,.95,1)
+    }
+    75%{
+        transform:scale3d(.95,1.05,1)
+    }
+    100%{
+        ransform:scale3d(1,1,1)
+    }  
+ }
